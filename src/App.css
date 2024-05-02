@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.iplContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 49, 111);
+  color: white;
+}
+.iplCardContainer{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+.iplCard{
+justify-content: center;
+align-items: center;
+  padding: 30px;
+  margin: 15px;
+  background-color: rgb(217, 117, 11);   
+  border-radius: 10px;
+}
+.iplCard img{
+  border-radius: 4px;
 }
