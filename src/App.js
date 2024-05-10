@@ -2,15 +2,21 @@
 import './App.css';
 
 
-import Dummy from './Components/function components/dummy/prop';
+// import Dummy from './Components/function components/dummy/prop';
+// import Counter from './class componets/counter/counter';
+import StateTask from './class componets/counter/stateTask';
+
+
 function App() {
 
   return (
    <div>
-  <Dummy/>
+ 
+  <StateTask/>
+
      </div>
      )}
-
+  
 
 
 export default App;

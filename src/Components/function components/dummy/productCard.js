@@ -27,6 +27,6 @@
         <h5>Rating: {rating}</h5>
         <p>Brand:{brand} </p>
 
-        </div>
+        </div> 
     )
 }
